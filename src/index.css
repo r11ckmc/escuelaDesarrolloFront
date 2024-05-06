@@ -1,0 +1,15 @@
+body {
+
+  background-color: #282c34;
+
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}

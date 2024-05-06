@@ -1,0 +1,84 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #023E8A;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 80%;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .buttonT1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #003366;
+    height: 30px;
+    border-radius: 7px;
+    margin: 7px;
+  }
+
+  .titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+
+
+  }
+
+  /*disenio del footer*/
+  .divfooter{
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #84b6f4;
+    color: white;
+    align-items: center;
+    align-content: first baseline;
+  }
+
+  .footerimg{
+    width: 300px;
+    border-radius: 30px;
+
+  }
